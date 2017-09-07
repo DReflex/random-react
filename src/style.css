@@ -1,0 +1,40 @@
+body{
+  background: rgb(115, 163, 179);
+}
+h1{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: 600;
+}
+.box{
+  margin:auto;
+  width:60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(21, 53, 94);
+  border: 2px  solid rgb(98, 88, 224);
+  box-shadow: 5px 5px 4px rgb(28, 59, 101)
+
+}
+.box1{
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+.box1 h2{
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px rgb(121, 215, 106);
+}
+.box1 p{
+  color:white;
+  font-size: 20px;
+
+}
+.button-align{
+  margin:auto;
+  width:40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
